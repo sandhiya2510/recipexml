@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="recipes.xsl"?>
+
+<recipes>
+    <recipe>
+        <name>pasta</name>
+        <ingredient>cheese</ingredient>
+        <time>30</time>
+    </recipe>
+    <recipe>
+        <name>pizza</name>
+        <ingredient>tomato</ingredient>
+        <time>20</time>
+    </recipe>
+</recipes>
