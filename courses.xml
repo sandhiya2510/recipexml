@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE courses [
+  <!ELEMENT courses (course+)>
+  <!ELEMENT course (coursecode, credit, coursename, stdregno?)>
+  <!ELEMENT coursecode (#PCDATA)>
+  <!ELEMENT credit (#PCDATA)>
+  <!ELEMENT coursename (#PCDATA)>
+  <!ELEMENT stdregno (#PCDATA)>
+]>
+<courses>
+  <course>
+    <coursecode>101</coursecode>
+    <credit>4</credit>
+    <coursename>web</coursename>
+    <stdregno>222</stdregno>
+  </course>
+  <course>
+    <coursecode>102</coursecode>
+    <credit>3</credit>
+    <coursename>database</coursename>
+  </course>
+</courses>
